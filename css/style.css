@@ -8,11 +8,14 @@ body {
 section {
   lost-utility: clearfix;
   padding: 2rem;
-  background: lightgray;
 }
 
 div {
+  background: lightgray;
   lost-column: 1/3;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
 }
 
 p {
