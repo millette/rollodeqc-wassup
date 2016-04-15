@@ -5,25 +5,43 @@ body {
   font-size: responsive;
 }
 
+h1 {
+  text-align: center;
+}
+
 section {
+  height: 100%;
   lost-utility: clearfix;
   padding: 2rem;
 }
 
 div {
   background: lightgray;
-  lost-column: 1/3;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  padding: 0.5em;
+  lost-waffle: 1/3;
+  padding: 0.5rem;
 }
 
 p {
-  padding: 1rem;
-  background: pink;
-  text-align: center;
+  float: right;
+  font-style: italic;
+  font-size: small;
+  padding: 0.25rem;
 }
 
-#fred {
+p.i {
+  background: pink;
+}
+
+p.g {
   background: yellow;
 }
+
+p.h {
+  background: lightblue;
+}
+
+p.d {
+  color: white;
+  background: magenta;
+}
+
