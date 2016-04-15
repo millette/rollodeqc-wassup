@@ -1,8 +1,14 @@
 @import 'reset/reeeset.min.css';
 
 body {
-  background: black;
+  margin: 1rem;
   font-size: responsive;
+}
+
+section {
+  lost-utility: clearfix;
+  padding: 2rem;
+  background: lightgray;
 }
 
 div {
@@ -10,6 +16,7 @@ div {
 }
 
 p {
+  padding: 1rem;
   background: pink;
   text-align: center;
 }

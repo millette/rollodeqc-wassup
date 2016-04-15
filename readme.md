@@ -1,4 +1,4 @@
-# Explorons webpack et lost (grid)
+# Le point sur le RoLLodeQc
 
 ```sh
 $ npm install
