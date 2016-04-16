@@ -1,3 +1,5 @@
+'use strict'
+
 module.exports = {
   entry: [
     './entry.js',
@@ -19,9 +21,13 @@ module.exports = {
       }
     ]
   },
-  postcss: [
+  postcss: (webpack) => [
+    require('postcss-import')({ addDependencyTo: webpack }),
+    require('postcss-url')(),
+    require('postcss-cssnext')(),
     require('postcss-responsive-type')(),
     require('lost'),
-    require('autoprefixer')
+    require('postcss-browser-reporter')(),
+    require('postcss-reporter')()
   ]
 }
