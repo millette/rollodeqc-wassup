@@ -30,3 +30,13 @@ Le plus important, c'est de comprendre Lost pour gérer le grid html.
 
 ## PostCSS
 <https://github.com/postcss/postcss>
+
+## cssnext
+<https://github.com/MoOx/postcss-cssnext/>
+
+# L'auteur
+## Robin Millette
+<http://robin.millette.info/> <https://twitter.com/rollodeqc>
+
+## Prototype du RoLLodeQc
+<http://www.rollodeqc.com/>
