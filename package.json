@@ -9,7 +9,7 @@
     "url": "http://robin.millette.info"
   },
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "standard && webpack-dev-server",
     "lint": "standard",
     "make": "standard && webpack"
   },
