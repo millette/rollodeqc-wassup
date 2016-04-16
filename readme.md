@@ -5,6 +5,16 @@ $ npm install
 $ npm start
 ```
 
+Deux autres scripts sont configurés:
+
+```sh
+$ npm run lint # utilise standard (feross) pour vérifier le JavaScript.
+$ npm run make
+```
+
+```npm run make``` lance d'abord ```lint``` puis crée les fichiers
+**index.html** et **bundle.js** nécessaires à un site statique.
+
 Éditez index.jade et css/style.css à votre goût, sauvez et le browser
 se met à jour (seulement quand on update le css pour le moment).
 
