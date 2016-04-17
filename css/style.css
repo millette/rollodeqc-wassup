@@ -35,6 +35,7 @@ section#intro {
   }
 
   & div.logo {
+    text-align: right;
     lost-column: 1/3;
   }
 

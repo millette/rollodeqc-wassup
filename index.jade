@@ -1,13 +1,10 @@
 extends ./_layout.jade
 
-mixin module(s)
+mixin module(name)
   div
-    h4= s.replace(/-/g, ' ').replace(/^rollodeqc /, '')
-    img(src='https://travis-ci.org/millette/#{s}.svg')
-    img(src='https://coveralls.io/repos/github/millette/#{s}/badge.svg?branch=master')
-
-block title
-  title RoLLodeQc: le point
+    h4= name.replace(/-/g, ' ').replace(/^rollodeqc /, '')
+    img(src='https://travis-ci.org/millette/#{name}.svg')
+    img(src='https://coveralls.io/repos/github/millette/#{name}/badge.svg?branch=master')
 
 block content
   section#intro
@@ -15,7 +12,7 @@ block content
       img(src='logo.png' alt='Logo RoLLodeQc')
 
     div.text
-      h1 RoLLodeQc: le point
+      h1= title
       p: a(href='http://www.rollodeqc.com/') Prototype du RoLLodeQc
       p Par <a href='http://robin.millette.info/'>Robin Millette</a>
       blockquote «&nbsp;Il était une fois trois petits points qui n'aimaient pas se suivre.&nbsp;»
