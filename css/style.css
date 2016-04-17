@@ -119,7 +119,6 @@ section#details {
   }
 }
 
-
 h3.modulestitle {
   padding: 0 2rem;
 }
@@ -130,6 +129,10 @@ section#modules {
 
   & div {
     lost-waffle: 1/2;
+  }
+
+  & img {
+    margin-right: 0.5rem;
   }
 
   @media (--only-medium-screen) {
