@@ -1,4 +1,4 @@
-# Le point sur le RoLLodeQc
+# Le point sur le RoLLodeQc [![Dependency Status](https://gemnasium.com/badges/github.com/millette/rollodeqc-wassup.svg)](https://gemnasium.com/github.com/millette/rollodeqc-wassup)
 
 ```sh
 $ npm install
