@@ -13,8 +13,12 @@ block content
 
     div.text
       h1= title
-      p: a(href='http://www.rollodeqc.com/') Prototype du RoLLodeQc
       p Par <a href='http://robin.millette.info/'>Robin Millette</a>
+      p
+        a(href='http://www.rollodeqc.com/') (voir le prototype
+        small  - septembre 2015
+        | )
+
       blockquote «&nbsp;Il était une fois trois petits points qui n'aimaient pas se suivre.&nbsp;»
 
   section#highlights
@@ -51,10 +55,10 @@ block content
 
         p Un grand merci aux personnes suivantes:
         ul
-          li Marco Angles
-          li Frédéric Guimont
-          li Savoir-Faire Linux
-          li Heri R..
+          li: a(href='http://iftbqp.com/') Marco Angles
+          li: a(href='http://charactercreator.org/') Frédéric Guimont
+          li: a(href='https://www.savoirfairelinux.com/') Savoir-Faire Linux
+          li: a(href='http://madmedia.ca/') Heri Rakotomalala
 
         p Nous sommes d'ailleurs à la recherche des perles rares qui se reconnaitraient parmi:
         ul
@@ -65,7 +69,9 @@ block content
           li Mise en marché
           li Dons et commanditaires
 
-        p Contactez nous!
+        p
+          a(href='mailto:robin@millette.info') Contactez nous!
+            small  (robin@millette.info)
 
       div.t2of3
         h3 Le marché des logiciels libres au Québec
@@ -104,8 +110,10 @@ block content
       +module('rollodeqc-locator')
 
   footer
-    p Pied de page... <i>ou pied de poule</i>?
-    p.
-      Les sources de cette page se trouvent sur
-      <a href="https://github.com/millette/rollodeqc-wassup">
-      GitHub dans <code>millette/rollodeqc-wassup</code></a>
+    p Les sources de cette page se trouvent sur
+      a(href="https://github.com/millette/rollodeqc-wassup")  GitHub dans
+        code  millette/rollodeqc-wassup
+
+    p
+      a(href='mailto:robin@millette.info') Contactez nous!
+        small  (robin@millette.info)
