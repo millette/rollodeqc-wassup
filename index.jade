@@ -4,44 +4,124 @@ block title
   title RoLLodeQc: le point
 
 block content
-  h1  RoLLodeQc: le point
-  section
+  section#intro
+    div.logo
+      img(src='logo.png' alt='Logo RoLLodeQc')
+
+    div.text
+      h1  RoLLodeQc: le point
+      p: a(href='http://www.rollodeqc.com/') Prototype du RoLLodeQc
+      p Par <a href='http://robin.millette.info/'>Robin Millette</a>
+      blockquote «&nbsp;Il était une fois trois petits points qui n'aimaient pas se suivre.&nbsp;»
+
+  section#highlights
     div
-      h3 Wireframe (avec protobrew)
-      p.i Nouveau look
+      h2 Données GitHub:
+      ul
+        li Des modules JavaScript
+        li Tests unitaires
+        li Coverage: vise 100%
+        li Et: bitbucket, gitlab...
 
     div
-      h3 SearchKit avec ElasticSearch &amp; Lucene
-      p.i Nouveau look
+      h2 Nouveau look:
+      ul
+        li Avec Protobrew
+        li Bootstrap, Foundation?
+        li lost + postcss + nextcss?
+        li Recherche par facettes
 
     div
-      h3 rollodeqc gh search users <img src='https://travis-ci.org/millette/rollodeqc-gh-search-users.svg'>
-      p.g Github scrapping
+      h2 Prochaines pistes:
+      ul
+        li Keystone (avec sydjs)
+        li Drupal 8 (et CouchDB)
+        li SearchKit (ElasticSearch)
+        li Nouveaux partenaires
 
-    div
-      h3 rollodeqc locator <img src='https://travis-ci.org/millette/rollodeqc-locator.svg'>
-      p.h General scrapping
+    section#details
+      div.t1of3
+        h3 Rejoignez l'équipe du RoLLodeQc
+        p.
+          Plusieurs personnes ont déjà contribué au RoLLodeQc,
+          soit avec des conseils, de l'aide profesionnelle ou financièrement.
 
-    div
-      h3 rollodeqc gh utils <img src='https://travis-ci.org/millette/rollodeqc-gh-utils.svg'>
-      p.g Github scrapping
+        p Un grand merci aux personnes suivantes:
+        ul
+          li Marco Angles
+          li Frédéric Guimont
+          li Savoir-Faire Linux
+          li Heri R..
 
-    div
-      h3 rollodeqc gh user <img src='https://travis-ci.org/millette/rollodeqc-gh-user.svg'>
-      p.g Github scrapping
+        p Nous sommes d'ailleurs à la recherche des perles rares qui se reconnaitraient parmi:
+        ul
+          li SysAdmin &amp; DevOps
+          li Communications, réseaux sociaux
+          li JavaScript (front et backend)
+          li Gestion de projet
+          li Mise en marché
+          li Dons et commanditaires
 
-    div
-      h3 rollodeqc gh bookworm <img src='https://travis-ci.org/millette/rollodeqc-gh-bookworm.svg'>
-      p.g Github scrapping
+        p Contactez nous!
 
-    div
-      h3 rollodeqc gh users <img src='https://travis-ci.org/millette/rollodeqc-gh-users.svg'>
-      p.g Github scrapping
+      div.t2of3
+        h3 Le marché des logiciels libres au Québec
+        p.
+          Selon notre dernier recensement des utilisateurs québécois sur GitHub,
+          on peut compter sur au moins 10,000 développeurs dans plus de
+          100 villes au Québec. Ils se partagent des centaines de milliers
+          de projets dans tous les langages de programmations imaginables.
 
-    div
-      h3 rollodeqc gh search users all <img src='https://travis-ci.org/millette/rollodeqc-gh-search-users-all.svg'>
-      p.g Github scrapping
+        blockquote.
+          «&nbsp;Chaque semaine il se code des milliers de lignes contribuant
+          au logiciel libre.&nbsp;»
+        h4 Le rôle du RoLLodeQc dans l'écosystème
+        p.
+          Nous croyons fermement que le temps est venu de mettre les
+          projecteurs sur les acteurs du libre au Québec ainsi que sur
+          leurs nombreuses réalisations.
+        p.
+          Avec ses bottins de programmeurs, d'entreprises et de projets,
+          avec ses statistiques hebdomadaires couvrant plus de 100 villes
+          sur les langages et les licences, nous espérons que le RoLLodeQc
+          saura répondre à une partie importante de vos besoins.
+        h4 À très bientôt!
+        p En espérant que vous adopterez le site et prendrez part à sa communauté.
 
-    div
-      h3 generator nm standard <img src='https://travis-ci.org/millette/generator-nm-standard.svg'>
-      p.d npm dev
+
+    h3.modulestitle Les Modules JavaScript (npm)
+    section#modules
+      div
+        h4 rollodeqc gh search users
+        img(src='https://travis-ci.org/millette/rollodeqc-gh-search-users.svg')
+
+      div
+        h4 rollodeqc locator
+        img(src='https://travis-ci.org/millette/rollodeqc-locator.svg')
+
+      div
+        h4 rollodeqc gh utils
+        img(src='https://travis-ci.org/millette/rollodeqc-gh-utils.svg')
+
+      div
+        h4 rollodeqc gh user
+        img(src='https://travis-ci.org/millette/rollodeqc-gh-user.svg')
+
+      div
+        h4 rollodeqc gh bookworm
+        img(src='https://travis-ci.org/millette/rollodeqc-gh-bookworm.svg')
+
+      div
+        h4 rollodeqc gh users
+        img(src='https://travis-ci.org/millette/rollodeqc-gh-users.svg')
+
+      div
+        h4 rollodeqc gh search users all
+        img(src='https://travis-ci.org/millette/rollodeqc-gh-search-users-all.svg')
+
+      div
+        h4 generator nm standard
+        img(src='https://travis-ci.org/millette/generator-nm-standard.svg')
+
+  footer
+    p Pied de page... <i>ou pied de poule</i>?
