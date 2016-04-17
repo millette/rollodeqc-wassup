@@ -11,7 +11,7 @@
   "scripts": {
     "start": "standard && webpack-dev-server",
     "lint": "standard",
-    "make": "standard && webpack"
+    "make": "standard && webpack && mkdir dist ; cp logo.png favicon.ico index.html bundle.js dist/"
   },
   "standard": { "ignore": ["js/polyfill/"] },
   "devDependencies": {

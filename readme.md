@@ -13,15 +13,13 @@ $ npm run make
 ```
 
 ```npm run make``` lance d'abord ```lint``` puis crée les fichiers
-**index.html** et **bundle.js** nécessaires à un site statique.
+**index.html** et **bundle.js** nécessaires à un site statique et
+copie tout le nécessaire dans dist/ (favicon et tout).
 
 Éditez index.jade et css/style.css à votre goût, sauvez et le browser
 se met à jour.
 
 Naviguez vers <http://localhost:1234>.
-
-## TODO
-* Configurer webpack pour *outputter* ses fichiers dans dist/
 
 # En savoir plus
 Le plus important, c'est de comprendre Lost pour gérer le grid html.
