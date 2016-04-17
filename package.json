@@ -1,17 +1,21 @@
 {
   "name": "rollodeqc-wassup",
   "description": "RoLLodeQc: le point.",
-  "version": "0.4.0",
+  "license": "CC-BY-SA-4.0",
+  "version": "0.5.0",
   "repository": "millette/rollodeqc-wassup",
   "author": {
     "name": "Robin Millette",
     "email": "robin@millette.info",
     "url": "http://robin.millette.info"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "start": "standard && webpack-dev-server",
     "lint": "standard",
-    "make": "standard && webpack && mkdir dist ; cp logo.png favicon.ico index.html bundle.js dist/"
+    "make": "standard && webpack && mkdir -p dist/js/polyfill/ ; cp crossdomain.xml logo.png favicon.ico index.html bundle.js dist/ && cp js/polyfill/* dist/js/polyfill/"
   },
   "standard": { "ignore": ["js/polyfill/"] },
   "devDependencies": {
