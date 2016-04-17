@@ -5,6 +5,7 @@ mixin module(name)
     h4= name.replace(/-/g, ' ').replace(/^rollodeqc /, '')
     img(src='https://travis-ci.org/millette/#{name}.svg')
     img(src='https://coveralls.io/repos/github/millette/#{name}/badge.svg?branch=master')
+    img(src='https://gemnasium.com/badges/github.com/millette/#{name}.svg')
 
 block content
   section#intro
