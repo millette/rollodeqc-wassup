@@ -6,6 +6,7 @@ mixin module(name)
     img(src='https://travis-ci.org/millette/#{name}.svg')
     img(src='https://coveralls.io/repos/github/millette/#{name}/badge.svg?branch=master')
     img(src='https://gemnasium.com/badges/github.com/millette/#{name}.svg')
+    img(src='http://npm.packagequality.com/shield/#{name}.svg')
 
 block content
   section#intro
@@ -108,7 +109,7 @@ block content
       +module('rollodeqc-gh-bookworm')
       +module('rollodeqc-gh-users')
       +module('rollodeqc-gh-search-users-all')
-      +module('rollodeqc-locator')
+      +module('rollodeqc-qc-locator')
       +module('rollodeqc-wassup')
       +module('webqcdevs')
       +module('meridas')
