@@ -2,7 +2,7 @@ extends ./_layout.jade
 
 mixin module(name)
   div
-    h4= name.replace(/-/g, ' ').replace(/^rollodeqc /, '')
+    h4: a(href='https://github.com/millette/' + name)= name.replace(/-/g, ' ').replace(/^rollodeqc /, '')
     img(src='https://travis-ci.org/millette/#{name}.svg')
     img(src='https://coveralls.io/repos/github/millette/#{name}/badge.svg?branch=master')
     img(src='https://gemnasium.com/badges/github.com/millette/#{name}.svg')
