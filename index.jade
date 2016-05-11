@@ -8,6 +8,11 @@ mixin module(name)
     img(src='https://gemnasium.com/badges/github.com/millette/#{name}.svg')
     img(src='http://npm.packagequality.com/shield/#{name}.svg')
 
+mixin module2(name)
+  div
+    h4: a(href='https://github.com/millette/' + name)= name.replace(/-/g, ' ').replace(/^rollodeqc /, '')
+    img(src='https://gemnasium.com/badges/github.com/millette/#{name}.svg')
+
 block content
   section#intro
     div.logo
@@ -102,25 +107,11 @@ block content
 
     h3.modulestitle Les Modules JavaScript (npm)
     section#modules
-      +module('generator-nm-standard')
-      +module('rollodeqc-gh-search-users')
-      +module('rollodeqc-gh-utils')
-      +module('rollodeqc-gh-user')
-      +module('rollodeqc-gh-user-events')
-      +module('rollodeqc-gh-repos')
-      +module('rollodeqc-gh-bookworm')
-      +module('rollodeqc-gh-users')
-      +module('rollodeqc-gh-search-users-all')
-      +module('rollodeqc-qc-locator')
-      +module('rollodeqc-wassup')
-      +module('rollodeqc-dev-profile')
-      +module('webqcdevs')
-      +module('meridas')
-      +module('aurtier')
-      +module('star-where')
-      +module('librarian-api')
-      +module('package-managers')
-      +module('boy-lost-webpack')
+      each mod in modules
+        +module(mod)
+
+      each mod in modulesMore
+        +module2(mod)
 
   footer
     p Les sources de cette page se trouvent sur
