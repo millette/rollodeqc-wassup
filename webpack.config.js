@@ -25,6 +25,7 @@ const modules = [
   'rollodeqc-gh-repos',
   'rollodeqc-gh-bookworm',
   'rollodeqc-gh-users',
+  'rollodeqc-gh-members',
   'rollodeqc-gh-search-users-all',
   'rollodeqc-qc-locator',
   'aurtier',
