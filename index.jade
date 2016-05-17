@@ -7,11 +7,13 @@ mixin module(name)
     img(src='https://coveralls.io/repos/github/millette/#{name}/badge.svg?branch=master')
     img(src='https://gemnasium.com/badges/github.com/millette/#{name}.svg')
     img(src='http://npm.packagequality.com/shield/#{name}.svg')
+    img(src='https://codeclimate.com/github/millette/#{name}/badges/gpa.svg')
 
 mixin module2(name)
   div
     h4: a(href='https://github.com/millette/' + name)= name.replace(/-/g, ' ').replace(/^rollodeqc /, '')
     img(src='https://gemnasium.com/badges/github.com/millette/#{name}.svg')
+    img(src='https://codeclimate.com/github/millette/#{name}/badges/gpa.svg')
 
 block content
   section#intro
