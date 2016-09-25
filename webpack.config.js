@@ -17,12 +17,19 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const modules = [
+  'committed-streaker',
   'generator-nm-standard',
   'rollodeqc-gh-search-users',
   'rollodeqc-gh-utils',
   'rollodeqc-gh-user',
+  'rollodeqc-gh-user-streak',
   'rollodeqc-gh-user-events',
+  'rollodeqc-gh-users',
+  'rollodeqc-gh-repo',
+  'rollodeqc-gh-repo-webhooks',
   'rollodeqc-gh-repos',
+  'rollodeqc-gh-repos-issues',
+  'rollodeqc-gh-repos-webhooks',
   'rollodeqc-gh-bookworm',
   'rollodeqc-gh-users',
   'rollodeqc-gh-members',
@@ -36,9 +43,12 @@ const modules = [
 
 const modulesMore = [
   'rollodeqc-dev-profile',
+  'rollodeqc-facture',
+  'rollodeqc-gh-snapshot',
   'rollodeqc-wassup',
   'webqcdevs',
   'meridas',
+  'aurtier',
   'boy-lost-webpack'
 ]
 
